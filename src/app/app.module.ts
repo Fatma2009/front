@@ -14,6 +14,8 @@ import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FheaderComponent } from './home/fheader/fheader.component';
 import { AssistantComponent } from './assistant/assistant.component';
+import { ArticlesComponent } from './articles/articles.component';
+import { InterfaceComponent } from './interface/interface.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { AssistantComponent } from './assistant/assistant.component';
     LoginComponent,
     FheaderComponent,
     AssistantComponent,
+    ArticlesComponent,
+    InterfaceComponent,
   ],
   imports: [
     BrowserModule,
