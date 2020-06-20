@@ -1,3 +1,4 @@
+import { OurserviceComponent } from './ourservice/ourservice.component';
 import { DoctorsComponent } from './Doctors/doctors/doctors.component';
 import { InterfaceComponent } from './FirstPage/interface/interface.component';
 import { AssistantComponent } from './assistant/assistant.component';
@@ -6,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import {APP_BASE_HREF} from '@angular/common';
 import { LoginComponent } from './login/login.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 const routes: Routes = [
@@ -28,7 +30,14 @@ const routes: Routes = [
 },{path : 'doctor',
 component : DoctorsComponent
 
+},{path : 'service',
+component : OurserviceComponent
+},{path : 'contact',
+component : ContactusComponent
+
 }
+
+
 
 
 

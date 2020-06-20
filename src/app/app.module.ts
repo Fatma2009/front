@@ -17,6 +17,8 @@ import { AssistantComponent } from './assistant/assistant.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { InterfaceComponent } from './FirstPage/interface/interface.component';
 import { DoctorsComponent } from './Doctors/doctors/doctors.component';
+import { OurserviceComponent } from './ourservice/ourservice.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { DoctorsComponent } from './Doctors/doctors/doctors.component';
     ArticlesComponent,
     InterfaceComponent,
     DoctorsComponent,
+    OurserviceComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
