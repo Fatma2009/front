@@ -1,4 +1,4 @@
-import { InterfaceComponent } from './interface/interface.component';
+import { InterfaceComponent } from './FirstPage/interface/interface.component';
 import { AssistantComponent } from './assistant/assistant.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';

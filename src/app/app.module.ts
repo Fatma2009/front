@@ -12,10 +12,10 @@ import { FooterComponent } from './home/footer/footer.component';
 import { HeaderComponent } from './home/header/header.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FheaderComponent } from './home/fheader/fheader.component';
+import { FheaderComponent } from './FirstPage/fheader/fheader.component';
 import { AssistantComponent } from './assistant/assistant.component';
 import { ArticlesComponent } from './articles/articles.component';
-import { InterfaceComponent } from './interface/interface.component';
+import { InterfaceComponent } from './FirstPage/interface/interface.component';
 
 
 @NgModule({
