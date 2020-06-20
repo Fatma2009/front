@@ -1,3 +1,4 @@
+import { DoctorsComponent } from './Doctors/doctors/doctors.component';
 import { InterfaceComponent } from './FirstPage/interface/interface.component';
 import { AssistantComponent } from './assistant/assistant.component';
 import { NgModule } from '@angular/core';
@@ -23,6 +24,9 @@ const routes: Routes = [
 
   },{path : 'home',
   component : HomeComponent
+
+},{path : 'doctor',
+component : DoctorsComponent
 
 }
 

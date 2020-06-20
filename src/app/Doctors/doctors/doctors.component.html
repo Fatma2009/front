@@ -1,0 +1,94 @@
+
+  <!-- START PRELOADER
+  	<div id="page-preloader">
+		<div class="preloader-wrench"></div>
+	</div>
+  -->
+
+  <!-- END PRELOADER-->
+  <!-- START HEADER SECTION -->
+  <header class="main-header header-1">
+
+    <app-header></app-header>
+
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-6">
+
+            <div class="card hovercard"  *ngFor ='let Doctor of list '>
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+
+                  <img class="card-img-top" src={{Doctor.photo}} alt="Card image cap">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" >Doctor</a>
+                    </div>
+                    <div class="desc">{{Doctor.nom}}-{{Doctor.prenom}}</div>
+                    <div class="desc">{{Doctor.adresseCab}}</div>
+                    <div class="desc">{{Doctor.dateDip}}</div>
+                </div>
+                <div class="bottom">
+                    <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-danger btn-sm" rel="publisher"
+                       href="https://plus.google.com/+ahmshahnuralam">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="btn btn-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="btn btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class=" row col-md-12">
+  <div class="card"   *ngFor ='let Doctor of list ' style="width: 30rem;">
+    <img class="card-img-top" src={{Doctor.photo}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"> {{Doctor.nom}}-{{Doctor.prenom}}</h5>
+      <p class="card-text"> {{Doctor.adresseCab}}</p>
+      <p class="card-text"> {{Doctor.dateDip}}</p>
+      <a href="#" class="btn btn-primary">Details</a>
+    </div>
+  </div>
+
+  </div>
+
+-->
+
+
+
+
+<footer></footer>

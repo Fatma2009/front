@@ -16,6 +16,7 @@ import { FheaderComponent } from './FirstPage/fheader/fheader.component';
 import { AssistantComponent } from './assistant/assistant.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { InterfaceComponent } from './FirstPage/interface/interface.component';
+import { DoctorsComponent } from './Doctors/doctors/doctors.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { InterfaceComponent } from './FirstPage/interface/interface.component';
     AssistantComponent,
     ArticlesComponent,
     InterfaceComponent,
+    DoctorsComponent,
   ],
   imports: [
     BrowserModule,
