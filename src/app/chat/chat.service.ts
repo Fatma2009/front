@@ -1,5 +1,5 @@
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
-import { environment } from './../../../environments/environment.prod';
+import { environment } from './../../environments/environment.prod';
 import { Injectable } from '@angular/core';
 
 import { ApiAiClient } from 'api-ai-javascript/es6/ApiAiClient';

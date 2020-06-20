@@ -1,5 +1,5 @@
 import { Articlesrvice } from './service/articleservice.service';
-import { ChatModule } from './home/chat/chat.module';
+import { ChatModule } from './chat/chat.module';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
