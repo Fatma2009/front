@@ -19,6 +19,8 @@ import { InterfaceComponent } from './FirstPage/interface/interface.component';
 import { DoctorsComponent } from './Doctors/doctors/doctors.component';
 import { OurserviceComponent } from './ourservice/ourservice.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { RegisterComponent } from './register/register.component';
+import { DoctoresService } from './service/doctores.service';
 
 
 @NgModule({
@@ -35,6 +37,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     DoctorsComponent,
     OurserviceComponent,
     ContactusComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     ChatModule,
     HttpClientModule
   ],
-  providers: [Articlesrvice
+  providers: [Articlesrvice, DoctoresService
   ],
   bootstrap: [AppComponent]
 })

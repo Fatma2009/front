@@ -35,6 +35,7 @@
               "src/assets/venobox/css/venobox.css" ,
               "src/assets/css/style.css",
               "src/assets/css/responsive.css"
+
             ],
             "scripts": [
             "src/assets/js/jquery-2.2.4.min.js",

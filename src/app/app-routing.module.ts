@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import {APP_BASE_HREF} from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes: Routes = [
@@ -24,17 +25,24 @@ const routes: Routes = [
     path : 'assistant',
     component : AssistantComponent,
 
-  },{path : 'home',
+  },
+  {path : 'home',
   component : HomeComponent
 
-},{path : 'doctor',
+},
+{path : 'doctor',
 component : DoctorsComponent
 
-},{path : 'service',
+},
+{path : 'service',
 component : OurserviceComponent
-},{path : 'contact',
+},
+{path : 'contact',
 component : ContactusComponent
 
+}, {
+  path:'register',
+  component: RegisterComponent
 }
 
 
