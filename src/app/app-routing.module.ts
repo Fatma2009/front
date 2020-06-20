@@ -17,6 +17,11 @@ const routes: Routes = [
     component : InterfaceComponent
 
   }, {
+    path : 'interface',
+    component : InterfaceComponent
+
+  }
+  , {
     path:'login',
     component: LoginComponent
 },
