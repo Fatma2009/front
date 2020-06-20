@@ -7,8 +7,8 @@ export class Doctor {
   adresseCab:string;
   dateDip:string;
   photo:string;
-
-
+  role: string;
+  nomR: string;
 
   constructor(){
 

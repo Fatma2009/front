@@ -1,3 +1,4 @@
+import { Doctor } from './../../Models/doctor';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
